@@ -1,0 +1,8 @@
+# Convenience requirements for the standalone Virgo SLM stack.
+#
+# Runtime/inference:
+#   pip install -e ".[runtime]"
+# Training/development:
+#   pip install -e ".[training,dev]"
+#
+# Actual production model weights are intentionally not included.

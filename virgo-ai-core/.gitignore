@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Python build output
+build/
+dist/
+*.egg-info/
+
+# Rust and native Python-extension build output
+/target/
+*.pyd
+*.so
+*.dylib
+
+# Local runtime persistence
+*.db
+*.sqlite
+*.sqlite3
